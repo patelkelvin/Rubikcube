@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    #video{
+    text-align: center;
+    }
+    .name{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="solve.html">How to solve?</a></li>
+        <li><a href="Tips.html">Tips</a></li>
+        <li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h1>How to Solve a Rubik's Cube, Guide for Beginners</h1>
+  <p>The <span class="name">Rubik's cube</span> (sometimes misspelled rubix cube) is a mechanical 3D puzzle, invented more than 30 years ago and still considered as the best-selling toy of all times! Yet, solving the Rubik's Cube is considered a nearly-impossible task, which requires an IQ of 160... <span class="name">Is that really so hard?</span> Definitely <span class="name">not</span>!! Just follow this simple step by step solving guide and you'll shortly find out that you can solve the Rubik's cube as well… Let's get to work!</p>
+  <br>
+  <div id="video"> <iframe width="504" height="378" src="https://www.youtube.com/embed/XKaqUoCFPR8">
+    </iframe>
+  </div> 
+  <h2>The mechanism of the Rubik's Cube</h2>
+  <p>The Rubik's cube is actually a 26 pieces puzzle. There are three types of pieces: (see image)<img src="images\rubiks-cube-pieces.png"></p>
+  <p><br><span style="color: green;">Corner piece</span>: has three different color stickers on it (there are 8 corner pieces in the cube)
+   <br><span style="color: red;">Edge piece</span>: has two different color stickers on it (there are 12 edge pieces in the cube)
+   <br><span style="color: yellow;">Center piece</span>: has one color sticker on it (6 center pieces, all are attached to the core)
+   <br><br>The core is the inside of the Rubik's Cube, which holds all the pieces together and is attached to the center pieces with rotatable axes. 
+   <br><br>Important! The center pieces are part of the core and subsequently cannot move relatively to each other. For that reason they are already "solved". The solving process is actually bringing all corner and edge pieces to the "already solved" center pieces (meaning there are only 20 pieces to solve out of the 26). For example, the blue center piece will always be opposite to the green center piece (on a standard color-scheme cube). It doesn't matter how hard you will try scrambling the cube, it will just stay that way.
+  </p>
+  <br>
+  <h2>Rubiks Cube Move notations</h2>
+  <p>Move notations are made in order to convey a sequence of moves through writing. When describing the solution we'll use the following move notations (traditional move notations).
+    Here is how it works- every face given a letter:</p><br>
+    <ul>
+      <li><span class="name">F</span> (front): the front face (facing the solver)</li>
+      <li><span class="name">B</span> (back): the back face (opposite to the front face)</li>
+      <li><span class="name">R</span> (right): the right face</li>
+      <li><span class="name">L</span> (left): the left face (opposite to the right face)</li>
+      <li><span class="name">U</span> (up): the upper face</li>
+      <li><span class="name">D</span> (down): the bottom face (opposite to the upper face)</li>
+    </ul>
+    <p>The letter means turning that face 90°, clockwise (single turn). (e.g. R)
+      A letter followed by ' (apostrophe) means turning that face 90°, counter-clockwise (single turn). (e.g. R')
+      A letter followed by "2" means turning that face 180° (double turn). (e.g. R2)</p>
+</div>
+
+</body>
+</html>

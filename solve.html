@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How to Solve Cube?</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    .name{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="solve.html">How to solve?</a></li>
+        <li><a href="Tips.html">Tips</a></li>
+        <li><a href="Quiz.html">Quiz</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h1>The Rubik's Cube Solution</h1>
+  <p>Solving the Rubik's cube is made piece by piece, just like any other puzzle. Therefore the solution is divided into steps each of which solves number of pieces without destroying the ones completed on previous steps. Let's start!</p>
+  <br>
+  <h2>Step 1: Solving the edge pieces of the top layer</h2>
+  <p>In this step we have four pieces to solve. First choose a color to begin with. I chose white in this guide. For this time, choose the white as well, so the images along the solution will be relevant to your solving process. In addition, it is best to start with the white/yellow colors as they are the easiest colors for quick recognition which is important for speedsolving.<br><img src="images\step1.png"></p>
+  <h2>Step 2: Solving the corner pieces of the top layer</h2>  
+  <p>In this step we'll solve the four corner pieces of the top layer.Pay attention! The corner piece has to match not only the white color on top, but also the colors to the left and right.<br><img src="images\step2.png">
+    <br>Inserting a corner piece to its solved position is done this way:
+    First find an unsolved white corner (at the bottom layer), and position it under the place it should be solved into (by doing D moves).
+  </p>
+  <h2>Step 3: Solving the edge pieces of the middle layer</h2>  
+  <p>In this step we'll solve the four edge pieces of the middle layer, and by that we'll actually complete the first two layers (a.k.a F2L).<br><img src="images\step3.png">
+    <br>Flip the cube upside down so the solved layer will be on the bottom. Choose an edge piece to begin with which is currently on the top layer, and locate it above the correct center piece to form an upside-down T shape (see image).  </p>
+  <h2>Step 4: Orienting the last layer edge pieces</h2>  
+  <p>In this step, for the first time we won't completely solve the pieces but only orient them correctly. In other words our step goal is to form a cross shape on the upper face of the cube. The edge pieces do not need to fit the colors on the sides.<br><img src="images\step4.png">
+  </p>
+  <h2>Step 5: Permuting the last layer corners</h2>  
+  <p>In this step our goal is to permute the four last layer corner pieces.
+    Pay attention! Our goal is only to position the corners in their correct place; we don't have to orient them correctly. For example, take a look at the image to the right; the yellow-green-red corner piece is well permuted.<br><img src="images\step5.png">
+    <br>In this step there are only 2 different possible unsolved states:</p>
+    <ol>
+        <li>When two well permuted corners are adjacent to each other.</li>
+        <li>When two well permuted corners are diagonal to each other.</li>
+    </ol>
+    <p>If you can't find 2 well permuted corners, turn the upper face (U) until they'll show up. They must be there.</p>
+  
+  <h2>Step 6: Orienting the last layer corners</h2>  
+  <p>In this step our goal is to orient the four corner pieces of the last layer, the ones we have just permuted.<br><img src="images\step6.png">
+  </p>
+  <h2>Step 7 (and last!): Permuting the last layer edge pieces</h2>  
+  <p>In this step our goal is to permute the last layer edge pieces into their correct position, and by that to completely solve the Rubik's cube.<br><img src="images\step7.png">
+   <br><br><span class="name">Congratulations!!</span> You did it!  
+  </p>
+</div>
+</body>
+</html>

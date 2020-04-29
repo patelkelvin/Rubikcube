@@ -1,0 +1,41 @@
+$align: center;
+$min: 601px;
+$max: 600px;
+%common {
+    font-family: sans-serif;
+}
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: $min) {
+    div{
+        @extend %common;
+      font-size: 20px; 
+      h1{
+        text-align: center;
+    }
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: $max) {
+    div {
+        @extend %common;
+      font-size: 15px;
+      h1{
+        text-align: center;
+    }
+    }
+  }
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: $align;
+}
+
+th {
+    background-color: lightgray;
+}
